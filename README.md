@@ -42,41 +42,40 @@ This project implements a **machine learning pipeline** to classify ADRD cases b
 
 ---
 
-## Running the Pipeline
+## 🚀 Running the Pipeline
 
-### **Step 1: Data Preprocessing**
+### 🏗 **Step 1: Data Preprocessing**
 - Reads raw SNP data and GWAS summary statistics.
 - Filters SNPs based on **MAF ≥ 0.01** and **P-value < 0.001**.
 
-### **Step 2: Feature Selection**
+### 📊 **Step 2: Feature Selection**
 - Applies **Lasso feature selection** to reduce dimensionality.
 
-### **Step 3: Train Machine Learning Models**
+### 🔥 **Step 3: Train Machine Learning Models**
 - Trains:
   - **Logistic Regression** (Lasso, Ridge, ElasticNet)
   - **Gradient Boosting** (XGBoost, LightGBM, CatBoost)
   - **Neural Networks** (MLPClassifier)
 - Saves **ROC curves** in `output/plots/`.
 
-### **Step 4: Model Evaluation**
+### 📈 **Step 4: Model Evaluation**
 - **10-fold cross-validation** using **ROC-AUC**.
 - Computes **Permutation Feature Importance (PFI)**.
 - Saves feature importance tables in `output/tables/`.
 
 ---
 
-## Results
+## 📊 Results
 - **ROC curves** are stored in `output/plots/`.
 - **AUC scores** and **PFI tables** are in `output/tables/`.
 
 ---
 
-## To Do
+## 🎯 To Do
 - [ ] Add hyperparameter tuning for all models.
 - [ ] Implement feature selection comparisons.
-- [ ] Scale pipeline to all chromosomes.
+- [ ] Scale pipelin
 
----
 
 ## Citation
 If you use this pipeline in your research, please cite:
