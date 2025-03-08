@@ -65,18 +65,20 @@ This project implements a **machine learning pipeline** to classify ADRD cases b
 
 ---
 
-## 📊 Results
+## 📊 **Results**
 - **ROC curves** are stored in `output/plots/`.
 - **AUC scores** and **PFI tables** are in `output/tables/`.
 
 ---
 
-## 🎯 To Do
+## 🎯 **To Do**
 - [ ] Add hyperparameter tuning for all models.
 - [ ] Implement feature selection comparisons.
-- [ ] Scale pipelin
+- [ ] Scale pipeline to all chromosomes.
 
+---
 
-## Citation
+## 📜 **Citation**
 If you use this pipeline in your research, please cite:
+
 
