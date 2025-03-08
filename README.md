@@ -1,6 +1,4 @@
-# MLdosage
-
-# SNP-Based Machine Learning Pipeline for ADRD Classification
+# MLdosage: SNP-Based Machine Learning Pipeline for ADRD Classification
 
 ## 📖 Overview
 This project implements a **machine learning pipeline** to classify ADRD cases based on SNP data. It includes:
