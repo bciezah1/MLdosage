@@ -11,7 +11,9 @@ This project implements a **machine learning pipeline** to classify ADRD cases b
 
 ---
 
+
 ## 📂 Project Structure
+
 
 ├── 📁 codes (All scripts and code files)
 │ ├── step1_preprocessing.py
